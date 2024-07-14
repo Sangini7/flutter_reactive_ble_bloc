@@ -6,6 +6,7 @@ import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'package:meta/meta.dart';
 
 import '../utils/debug_mode_print.dart';
+import '../utils/enums.dart';
 
 part 'ble_service_event.dart';
 

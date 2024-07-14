@@ -60,16 +60,4 @@ final class BleServiceErrorState extends BleServiceState {
   List<Object?> get props => [bluetoothServiceError];
 }
 
-/// State of the bluetooth error
-enum BluetoothServiceError {
-  unknown,
-  scanTimeout,
-  connectionTimeout,
-  connectionError,
-  scanError,
-  permissionError,
-  readError,
-  subscribeError,
-  writeError
-}
 
